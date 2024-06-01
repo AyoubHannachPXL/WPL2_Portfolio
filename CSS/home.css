@@ -59,6 +59,9 @@ main #me img{
 section #info{
     font-size: 10rem;
 }
+article:nth-child(1), article:nth-child(2){
+    margin-bottom: 2rem;
+}
 
 /*----------------------------------------------------------------*/
 footer {

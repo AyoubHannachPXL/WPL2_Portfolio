@@ -44,7 +44,23 @@ header img {
 }
 
 /*----------------------------------------------------------------*/
-
+main{
+    text-align: center;
+}
+h1{
+    margin: 3rem 0 2rem 0;
+}
+main a{
+    display: inline-block;
+    width: 45%;
+    margin: 2rem 0 1rem 0;
+}
+#miro{
+    padding-left: 210px;
+}
+#figma{
+    padding-right: 230px;
+}
 /*----------------------------------------------------------------*/
 footer {
     margin-top: 3rem;
