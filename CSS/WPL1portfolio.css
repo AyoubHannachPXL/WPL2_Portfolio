@@ -45,30 +45,33 @@ header img {
 
 /*----------------------------------------------------------------*/
 main{
-    text-align: center;
+    width: 100%;
+    padding: 2rem 4rem;
 }
 h1{
-    margin: 3rem 0 2rem 0;
-}
-main p{
-    display: inline-block;
-    width: 70rem;
     text-align: center;
+    margin-bottom: 2rem;
+}
+p{
+    font-size: 1.3rem;
 }
 main a{
     display: inline-block;
     width: 45%;
     margin: 2rem 0 1rem 0;
 }
-#miro{
-    padding-left: 180px;
+#github{
+    padding-left: 125px;
 }
 #figma{
-    padding-right: 176px;
+    padding-right: 120px;
+}
+div{
+    text-align: center;
 }
 /*----------------------------------------------------------------*/
 footer {
-    margin-top: 3rem;
+    margin-top: 14.5rem;
     background-color: #000;
     text-align: center;
     padding: 10px;
