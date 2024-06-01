@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     color: #000;
+    font-family: prompt;
+    max-width: 1920px;
 }
 
 html {
@@ -10,7 +12,6 @@ html {
 }
 
 body {
-    font-family: "prompt";
     max-width: 1920px;
 }
 
@@ -29,9 +30,15 @@ header div {
 
 header a {
     align-content: center;
-    padding: 0px 16px;
+    padding: 0 16px;
     text-decoration: none;
     font-weight: bold;
+    color: #000;
+}
+
+header a:nth-child(2) {
+    background-color: #000;
+    color: #fff;
 }
 
 header a:hover {
@@ -54,6 +61,30 @@ p {
     margin-top: 6rem;
 }
 
+main h2 {
+    margin-top: 10rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+#carousel_photoshop, #mockups, #fontfolio, #google_ads, #brandbook, #iconen{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px; /* Adjust to your preferred height */
+    overflow: hidden;
+    margin-bottom: 8rem;
+}
+
+.carousel img {
+    max-height: 500px;
+    max-width: 100%;
+}
 /*----------------------------------------------------------------*/
 footer {
     margin-top: 3rem;

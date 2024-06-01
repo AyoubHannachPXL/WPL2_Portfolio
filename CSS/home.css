@@ -30,6 +30,10 @@ header a{
     text-decoration: none;
     font-weight: bold;
 }
+header a:nth-child(1){
+    background-color: #000;
+    color: #fff;
+}
 header a:hover{
     background-color: #000;
     color: #fff;
