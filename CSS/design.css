@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "prompt";
+    max-width: 1920px;
+}
+
+/*----------------------------------------------------------------*/
+header {
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+header div {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+}
+
+header a {
+    align-content: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+header img {
+    width: 100px
+}
+
+/*----------------------------------------------------------------*/
+main {
+    width: 100%;
+    padding: 2rem 4rem;
+}
+
+p {
+    font-size: 1.3rem;
+    margin-top: 6rem;
+}
+
+/*----------------------------------------------------------------*/
+footer {
+    margin-top: 3rem;
+    background-color: #000;
+    text-align: center;
+    padding: 10px;
+}
+
+footer h2 {
+    color: #fff;
+}
+
+footer img {
+    height: 50px;
+    padding: 5px;
+}

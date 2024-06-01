@@ -59,3 +59,20 @@ main #me img{
 section #info{
     font-size: 10rem;
 }
+
+/*----------------------------------------------------------------*/
+footer {
+    margin-top: 3rem;
+    background-color: #000;
+    text-align: center;
+    padding: 10px;
+}
+
+footer h2 {
+    color: #fff;
+}
+
+footer img {
+    height: 50px;
+    padding: 5px;
+}
