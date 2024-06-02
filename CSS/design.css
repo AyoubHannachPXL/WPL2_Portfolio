@@ -17,7 +17,7 @@ body {
 
 /*----------------------------------------------------------------*/
 header {
-    margin: 1rem;
+    margin: 1rem 1rem 5rem 1rem;
     display: flex;
     justify-content: space-between;
 }
@@ -72,7 +72,7 @@ main h2 {
     justify-content: center;
 }
 
-.carousel {
+.carousel{
     display: flex;
     justify-content: center;
     align-items: center;
