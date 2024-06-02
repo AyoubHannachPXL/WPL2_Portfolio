@@ -10,8 +10,13 @@ html {
 }
 
 body {
-    font-family: "prompt";
+    font-family: "prompt", serif;
     max-width: 1920px;
+}
+.content-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 /*----------------------------------------------------------------*/
@@ -19,6 +24,7 @@ header {
     margin: 1rem;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 header div {
@@ -88,4 +94,43 @@ footer h2 {
 footer img {
     height: 50px;
     padding: 5px;
+}
+/*----------------------------------------------------------------*/
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header div {
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 1rem;
+    }
+
+    header a {
+        padding: 8px 0;
+    }
+
+    main {
+        padding: 2rem 4rem;
+    }
+
+    main a {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    #miro {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    #figma {
+        padding-right: 0;
+        text-align: center;
+    }
+    main div img{
+        width: 90vw;
+    }
 }
