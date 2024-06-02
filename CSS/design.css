@@ -53,7 +53,7 @@ main {
 p {
     font-size: 1.3rem;
     margin-top: 6rem;
-    width: 1500px;
+    padding: 0 20rem;
 }
 
 main h2 {
